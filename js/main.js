@@ -22,4 +22,4 @@ console.log('Свет от Солнца до Сатурна идет', SaturnMid
 console.log('Свет от Солнца до Урана идет', UranusMidDistance     / lightSpeed, 'секунд.');
 console.log('Свет от Солнца до Нептуна идет', NeptuneMidDistance  / lightSpeed, 'секунд.');
 console.log('Свет от одного края галактики до другого идет', GalaxySize  / lightSpeed, 'секунд.');
-console.log('Свет от одного края галактики "Млечный путь" до другого идет', (GalaxySize  / lightSpeed) / BigInt(3600 * 24 * 365.2468), 'лет.');
+console.log('Свет от одного края галактики "Млечный путь" до другого идет', (GalaxySize  / lightSpeed) / BigInt( Math.ceil(3600 * 24 * 365.2468) ), 'лет.');
